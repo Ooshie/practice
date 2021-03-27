@@ -1,0 +1,37 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backEnd/index.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ooshie/practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ooshie/practice/issues"
+  },
+  "homepage": "https://github.com/Ooshie/practice#readme",
+  "dependencies": {
+    "@babel/core": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.2",
+    "express": "^4.17.1",
+    "loader": "^2.1.1",
+    "path": "^0.12.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.28.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.6.0"
+  }
+}
